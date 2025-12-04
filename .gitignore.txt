@@ -1,0 +1,70 @@
+# ============================================
+# Django & Python .gitignore
+# ============================================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+*.mo
+local_settings.py
+
+# Media & Static files (optional)
+media/
+staticfiles/
+static/
+
+# Environments
+.env
+venv/
+env/
+ENV/
+.venv/
+
+# VSCode & PyCharm settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup & temporary files
+*.bak
+*.swp
+*.tmp
+*.~*
+
+# Coverage / testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ============================================
+# End of file
+# ============================================
